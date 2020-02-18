@@ -18,6 +18,14 @@ const providers = [
   '@adonisjs/lucid/providers/LucidProvider'
 ]
 
+const globalMiddleware = [
+  'Adonis/Middleware/AuthInit'
+]
+
+const namedMiddleware = {
+  auth: 'Adonis/Middleware/Auth'
+}
+
 /*
 |--------------------------------------------------------------------------
 | Ace Providers
